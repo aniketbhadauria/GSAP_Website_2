@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Link TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-black w-full h-screen ">
+    <!-- main Screen -->
+    <div id="main">
+      <!-- Header -->
+      <div class="flex justify-between">
+        <!-- logo -->
+        <span class="logo text-lg font-bold text-white p-5">SPARTAN</span>
+        <div
+          class="nav flex justify-end item-end px-10 py-5 gap-2 "
+        >
+          <!-- navbar -->
+          <ul class="navbar w-fit rounded-full px-8 py-2 ">
+            <li
+              class="text-white text-lg font-base space-x-8 "
+            >
+               <!-- navgation links -->
+              <a href="#">Home</a>
+              <a href="#">Products</a>
+              <a href="#">Achievements</a>
+              <a href="#">Support</a>
+            </li>
+          </ul>
+           <!-- button -->
+          <button
+            type="button"
+            class="btn px-6 py-1 bg-slate-200 rounded-full text-black font-semibold"
+          >
+            Call Now
+          </button>
+        </div>
+      </div>
+<div class="hero w-full flex justify-between item-center gap-10 p-10">
+
+<div class="flex flex-col gap-5">
+    <h1 class="w-fit para text-7xl font-medium text-white leading-normal gap-2 mt-20 text-wrap">
+        <!-- paragraph -->
+        혁신적인 최첨단  로봇<span class="font-bold bg-gradient-to-r from-slate-100 to-gray-600 inline-block text-transparent bg-clip-text">솔루션</span>
+    </h1>
+    <p class="text-slate-300 text-base py-3 text-wrap">우리는 인간의 가능성을 확장하고 일상 생활을 향상시키기 위해 혁신적인 로봇 <br> 기술을 제공합니다. 최첨단 기술로 더 나은 미래를 만들어갑니다 지금 경험해보세요!</p><!-- <span class="move">move.</span>  -->
+     <!-- button -->
+     <button
+     type="button"
+     class="btn2 flex w-fit px-6 py-3 bg-slate-200 rounded-full text-black font-semibold text-md gap-1"
+   >
+     Explore More
+     <img src="assets/arrow-up-right.svg" alt="">
+   </button>
+</div>
+    <div class="w-full">
+
+        <!-- spline -->
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@1.8.2/build/spline-viewer.js"></script>
+        <spline-viewer url="https://prod.spline.design/1tr-2hC4yQkqDU2d/scene.splinecode"></spline-viewer>
+    </div>
+</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

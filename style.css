@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    font-family: 'montserrat';
+}
+h1{
+    font-size: larger; 
+    font-family: 'noto sans korean';
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+}
+.btn{
+    font-family: 'montserrat';
+}
+
